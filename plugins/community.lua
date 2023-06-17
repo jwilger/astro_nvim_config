@@ -8,5 +8,7 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
-  { import = "astrocommunity.git.neogit" }
+  { import = "astrocommunity.git.neogit" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.terminal-integration.vim-tmux-yank" }
 }
