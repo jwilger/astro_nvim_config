@@ -10,5 +10,6 @@ return {
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
-  { import = "astrocommunity.terminal-integration.vim-tmux-yank" }
+  { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
+  { import = "astrocommunity.completion.codeium-vim" },
 }
