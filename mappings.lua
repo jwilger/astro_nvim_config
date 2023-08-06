@@ -24,7 +24,7 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<leader>gg"] = { function()
-      require('neogit').open()
+      require('neogit').open({})
     end,
       desc = "Open NeoGit" },
   },
