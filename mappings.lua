@@ -27,6 +27,7 @@ return {
       require('neogit').open({})
     end,
       desc = "Open NeoGit" },
+    ["<C-w>z"] = { "<cmd>WindowsMaximize<cr>", desc = "Maximize Window" },
   },
   t = {
     -- setting a mapping to false will disable it

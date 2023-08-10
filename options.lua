@@ -8,6 +8,7 @@ return {
     signcolumn = "auto",    -- sets vim.opt.signcolumn to auto
     wrap = false,           -- sets vim.opt.wrap
     scrolloff = 20,
+    showtabline = 0,
   },
   g = {
     mapleader = " ",                 -- sets vim.g.mapleader
