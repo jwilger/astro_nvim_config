@@ -28,9 +28,13 @@ return {
     end,
       desc = "Open NeoGit" },
     ["<C-w>z"] = { "<cmd>WindowsMaximize<cr>", desc = "Maximize Window" },
+    ["<leader>bb"] = { "<cmd>b#<cr>", desc = "Last Buffer" },
   },
   t = {
     -- setting a mapping to false will disable it
     ["<esc>"] = false,
   },
+  i = {
+    ["fpp"] = {"|> ", desc = "Insert Pipe"}
+  }
 }
